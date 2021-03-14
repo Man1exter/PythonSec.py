@@ -14,6 +14,23 @@ import math
 #     print("slabo to wyglada" + imie2 )
 
 
+it = 0
+print("bez petli => ",it)
+print("odlicza do 10 ale jest warunek..")
+
+while it < 10:
+    print(it)
+    it += 1
+    if it == 7:
+        break
+
+print("Koniec tego dobrego z whilem :D")
+
+
+print("  ")
+print("  ")
+print("  ")
+
 ################################################################################################################
 
 ################################################################################################################
