@@ -13,6 +13,29 @@ import math
 # else:
 #     print("slabo to wyglada" + imie2 )
 
+mezczyzna = input("Podaj imie mezczyzny: ")
+kobieta = input("Podaj imie kobiety: ")
+dziecko1 = input("Podaj imie dziecka1: ")
+dziecko2 = input("Podaj imie dziecka2: ")
+
+wybor1 = 1
+wybor2 = 2
+
+print("Witamy rodzinke: ",mezczyzna," ",kobieta," ",dziecko1," ",dziecko2)
+print("Jaki problem?")
+print("Jedzenie [1]")
+print("Szkoła [2]")
+decyzja = input("Ktory numerek: ? ")
+if decyzja == 1:
+    print("Odwiedz nas na fb")
+elif decyzja == 2:
+    print("zadzwon do nas")
+else:
+    print("cos zle zostalo napisane")
+
+################################################################################################################
+
+################################################################################################################
 
 it = 0
 print("bez petli => ",it)
@@ -25,7 +48,6 @@ while it < 10:
         break
 
 print("Koniec tego dobrego z whilem :D")
-
 
 print("  ")
 print("  ")
