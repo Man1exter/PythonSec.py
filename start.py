@@ -35,6 +35,11 @@ print("----------------------")
 
 ###################################################################################################################
 
+
+
+
+####################################################################################################################
+
 print("Program drugi dzienny Pythonowy")
 
 a = int(input("Podaj liczbe a : "))
@@ -42,5 +47,5 @@ b = int(input("Podaj liczbe b : "))
 c = int(input("Podaj liczbe c : "))
 delta = b * b - 4 * a * c
 print("delta wynosi: ",delta)
-print("po przepierwiatkowaniu delta wynosi: ", math.sqrt(delta))
+print('pierwiastek z delty wynosi: ',math.sqrt(delta))
 print("----------------------")
