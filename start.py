@@ -28,6 +28,17 @@ print(lista)
 
 print(lista + ["JOSZUA", "SOSZUSZKA"])
 print(lista * 2)
+print("Ilosc elementow w liscie(bez zaliczenie mnozenia jej o 2): ", len(lista))
+lista.append("HIERONINIM")
+
+print("======================================================")
+
+lista2 = []
+lista2.append("HIERONINIM")
+lista2.append("ROMUALDNODO")
+lista2.append("KWOSTELIUSZON")
+print(lista2)
+
 
 print(" --- ")
 print(" --- ")
