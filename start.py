@@ -13,6 +13,19 @@ import math
 # else:
 #     print("slabo to wyglada" + imie2 )
 
+lista = []
+print(lista)
+
+lista = ['Mariusz','Kamil','Anna','Krzysztof','Janusz','Justyna','Wiktoria']
+print(lista)
+
+
+print(" --- ")
+print(" --- ")
+################################################################################################################
+
+################################################################################################################
+
 mezczyzna = input("Podaj imie mezczyzny: ")
 kobieta = input("Podaj imie kobiety: ")
 dziecko1 = input("Podaj imie dziecka1: ")
