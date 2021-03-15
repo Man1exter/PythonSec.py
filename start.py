@@ -38,6 +38,8 @@ lista2.append("HIERONINIM")
 lista2.append("ROMUALDNODO")
 lista2.append("KWOSTELIUSZON")
 print(lista2)
+lista2.insert(3,"MARIANKOOOOOO")
+print(lista2)
 
 
 print(" --- ")
