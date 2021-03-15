@@ -23,6 +23,12 @@ print("index 2: ",lista[2])
 print("index 3: ",lista[3])
 print("index 4: ",lista[4])
 
+lista[1] = "USUNIETO"
+print(lista)
+
+print(lista + ["JOSZUA", "SOSZUSZKA"])
+print(lista * 2)
+
 print(" --- ")
 print(" --- ")
 ################################################################################################################
