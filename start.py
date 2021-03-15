@@ -18,7 +18,10 @@ print(lista)
 
 lista = ['Mariusz','Kamil','Anna','Krzysztof','Janusz','Justyna','Wiktoria']
 print(lista)
-
+print("index 0: ",lista[0])
+print("index 2: ",lista[2])
+print("index 3: ",lista[3])
+print("index 4: ",lista[4])
 
 print(" --- ")
 print(" --- ")
