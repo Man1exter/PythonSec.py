@@ -13,6 +13,10 @@ import math
 # else:
 #     print("slabo to wyglada" + imie2 )
 
+################################################################################################################
+
+################################################################################################################
+
 lista = []
 print(lista)
 
@@ -38,9 +42,16 @@ lista2.append("HIERONINIM")
 lista2.append("ROMUALDNODO")
 lista2.append("KWOSTELIUSZON")
 print(lista2)
-lista2.insert(3,"MARIANKOOOOOO")
+lista2.insert(3,"MARIANKOOOOOO111")
+lista2.insert(4,"MARIANKOOOOOO222")
+lista2.insert(5,"MARIANKOOOOOO333")
+lista2.insert(5,"MARIANKOOOOOO444")
 print(lista2)
+print("Ilość tej wartosci w liscie: ",lista2.count("MARIANKOOOOOO111"))
 
+lista2.remove("MARIANKOOOOOO333")
+print("Min.wartosc: ", min(lista2))
+print("Max.wartosc: ", max(lista2))
 
 print(" --- ")
 print(" --- ")
