@@ -53,8 +53,17 @@ lista2.remove("MARIANKOOOOOO333")
 print("Min.wartosc: ", min(lista2))
 print("Max.wartosc: ", max(lista2))
 
+lista2.sort()
+print(lista2)
+lista2.reverse()
+print(lista2)
+
 print(" --- ")
 print(" --- ")
+
+# lista.clear()
+# lista2.clear()
+
 ################################################################################################################
 
 ################################################################################################################
